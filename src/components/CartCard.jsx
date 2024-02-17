@@ -1,7 +1,7 @@
-import image from "../assets/headphone5.jpg";
+import image from "../../public/assets/images/headphone3.jpg";
 export const CartCard = () => {
   return (
-    <div className="border border-gray-500 p-4 flex justify-between items-center">
+    <div className=" my-10 border border-gray-500 p-4 flex justify-between items-center">
       <img src={image} alt="image" width={60} height={60} />
       <p>Sony xperia sII</p>
       <span>$321</span>
